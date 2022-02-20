@@ -1,0 +1,5 @@
+d = read.csv("loan_data.csv", stringsAsFactors = F)
+
+install.packages("dplyr")
+library(dplyr)
+glimpse(d)
